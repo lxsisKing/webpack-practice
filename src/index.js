@@ -1,3 +1,4 @@
-import { foo, log } from "./foo.js";
+import { foo, component } from "./foo.js";
+import "./style.css";
 
-log(foo);
+document.body.appendChild(component(foo));
